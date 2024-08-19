@@ -5,7 +5,7 @@ const Assignment4 = () => {
   const [user, setuser] = useState({});
 
   return (
-    <div className="h-screen w-screen flex flex-col items-center justify-start pt-[20%] bg-slate-800 md:pt-[10%]">
+    <div className="h-screen w-screen flex flex-col items-center justify-start pt-[25%] bg-slate-800 md:pt-[10%]">
       <div className="flex gap-3 pb-12">
         <input
           value={username}
@@ -13,7 +13,7 @@ const Assignment4 = () => {
             setusername(e.target.value);
           }}
           placeholder="Enter Your Github Username..."
-          className="bg-slate-100 p-3 rounded-lg w-[300px] shadow md:w-[500px]"
+          className="bg-slate-100 p-3 rounded-lg w-[250px] shadow md:w-[500px]"
         />
         <button
           onClick={async () => {

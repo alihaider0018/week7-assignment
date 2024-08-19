@@ -11,7 +11,7 @@ const Assignment2 = () => {
     <div
       className={`h-screen w-screen flex items-end justify-center py-10 ${bgcolor}`}
     >
-      <div className="flex items-center justify-evenly h-[200px] m-6 flex-wrap bg-slate-900 rounded-lg p-3 gap-x-4 lg:h-16">
+      <div className="flex items-center justify-evenly h-[130px] m-6 flex-wrap bg-slate-900 rounded-lg p-3 gap-x-4 lg:h-16">
         <button
           className="text-black bg-red-500 px-6 py-1 text-lg rounded-xl"
           onClick={() => handlechange("bg-red-500")}
@@ -49,7 +49,7 @@ const Assignment2 = () => {
           Teal
         </button>
         <button
-          className="text-black bg-slate-100 px-6 py-1 text-lg rounded-xl"
+          className=" hidden lg:block text-black bg-slate-100 px-6 py-1 text-lg rounded-xl"
           onClick={() => handlechange("bg-white")}
         >
           Default

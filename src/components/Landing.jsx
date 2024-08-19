@@ -2,10 +2,9 @@ import React from "react";
 import Card from "./Card";
 
 const cardData = [
-  { to: "assignment1", description: "Profile" },
-  { to: "assignment2", description: "Background Changer" },
-  { to: "assignment3", description: "Para Generator" },
-  { to: "assignment4", description: "Github Info Card" },
+  { to: "assignment1", description: "Background Changer" },
+  { to: "assignment2", description: "Para Generator" },
+  { to: "assignment3", description: "Github Info Card" },
 ];
 
 const Landing = () => {
